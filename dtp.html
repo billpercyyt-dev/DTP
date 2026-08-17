@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <link href="cssfiles/aas.css" rel="stylesheet" type="text/css">
+ <meta name="description" content="Aasvoguelle Productions">
+ <meta name="keywords" content="aasvoguelle,dot the pigeon,spectrum,aasvogel,free game">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script src="jsfiles/menuopts.js"></script>
+ <script src="jsfiles/dtp2.js"></script>
+  
+ <style>
+  canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+  }
+ </style>
+</head>
+
+<body onload="startGame()">
+
+<div class="container">
+<br>
+<div id='myDiv' style="text-align:center;">
+</div>
+
+<div class="visible-md visible-lg" style="text-align:center;">  
+<input type="button" value="Sound ON" onclick="soundOnA()" style="color:#808080">
+<input type="button" value="Sound OFF" onclick="soundOff()" style="color:#808080">
+</div>
+
+<div style="text-align:center;">
+    <img class="img-responsive" style="margin: 0 auto;" src="bmpfiles/dtpLondon1.bmp">
+</div>
+
+<div style="text-align:center;">
+    <img class="img-responsive" style="margin: 0 auto;" src="bmpfiles/dtpLondon2.bmp">
+</div>
+
+<div class="visible-xs visible-sm" style="text-align:center;">  
+<!-- <input type="button" value="Sound" onclick="document.getElementById('dtpStart').play()"> -->
+<br>
+<input type="button" value="Sound ON" onclick="soundOnA()" style="color:#808080">
+<input type="button" value="Sound OFF" onclick="soundOff()" style="color:#808080">
+</div>
+
+<audio id="dtpStart"><source src="sounds/dtpStart.mp3" type="audio/mpeg"></audio>
+<audio id="dtpCongrats"><source src="sounds/dtpCongrats.mp3" type="audio/mpeg"></audio>
+<audio id="dtpEscape"><source src="sounds/dtpEscape.mp3" type="audio/mpeg"></audio>
+<audio id="dtpTopOfNelson"><source src="sounds/dtpTopOfNelson.mp3" type="audio/mpeg"></audio>
+
+</div>
+
+</body>
+</html>  
+
+
