@@ -235,7 +235,7 @@ function updateGameArea() {
         ctx.fillText("www.", 45, 75);
         ctx.fillText(".co.uk", 265, 150);
         ctx.font = 'italic 40px Arial';
-        ctx.fillText("AASVOGUELLE", 35, 120);
+        ctx.fillText("BILLYSDOODLES", 35, 120);
     }
 
     if ((dotStage > 2) && (gameOver))
